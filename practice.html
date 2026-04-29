@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    let person = [12, 13, 22, 37, 36, 68, 95, 77];
+
+person.forEach(function(age) {
+
+    if (age <= 19) {
+        document.write(age + " Teen <br>");
+    }
+    else if (age >= 20 && age <= 40) {
+        document.write(age + " Young <br>");
+    }
+    else {
+        document.write(age + " Old <br>");
+    }
+
+});
+</script>
+</html>
